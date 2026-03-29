@@ -1,0 +1,46 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text for contrast */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4CAF50; /* Light green headings */
+}
+
+a {
+    color: #4CAF50; /* Light green links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #4CAF50; /* Light green header */
+    padding: 10px 0;
+    color: white;
+}
+
+footer {
+    background-color: #4CAF50; /* Light green footer */
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    header, footer {
+        padding: 15px 0;
+    }
+}
